@@ -7,7 +7,7 @@ body {
 }
 @font-face {
     font-family: bedofroses;
-    src: url(/assets/fonts/Phosphor.ttf);
+    src: url(fonts/Phosphor.ttf);
 }
 h1 {
     font-family: bedofroses;
@@ -72,7 +72,7 @@ p {
     text-align: left;
     padding: 10px;
     overflow: hidden;
-    background-image: url('/assets/images/bgtrans.png');
+    background-image: url('images/bgtrans.png');
     border-radius: 20px;
 }
 
