@@ -6,10 +6,10 @@ function togglemute() {
 }
 
 $(function() {   
-    var base_url = 'https://dl.dropboxusercontent.com/u/1268920/clubtropicana/';
+    var base_url = 'https://dl.dropboxusercontent.com/u/1268920/clubtropicana/ctbg';
     var i = Math.floor(Math.random() * 7) + 1;
-    var v = '<video muted autoplay loop poster="!ctbg#.png"><source src="!ctbg#.mp4" type="video/mp4"><source src="!ctbg#.wemb" type="video/wemb"></video>';
-    $('.random-video').html(v.replace(/!/g, base_url).replace(/#/g,i));
+    var v = '<video muted autoplay loop poster="#.png"><source src="#.mp4" type="video/mp4"><source src="#.wemb" type="video/wemb"></video>';
+    $('.random-video').html(v.replace(/#/g,base_url+i));
     
     $('.scroll-pane').jScrollPane({
         verticalDragMinHeight: 100,
